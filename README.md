@@ -1,8 +1,51 @@
-# alx-files_manager
+# 0x15. Files manager
 
-# Learning Objectives
-- how to create an API with Express
-- how to authenticate a user
-- how to store data in MongoDB
-- how to store temporary data in Redis
-- how to setup and use a background worker
+## Description
+This project is a summary of this back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination and background processing.
+
+---
+
+### [0. Redis utils](./utils/redis.js)
+* Inside the folder utils, create a file redis.js that contains the class RedisClient. RedisClient should have:
+
+
+### [1. MongoDB utils](./utils/db.js)
+* Inside the folder utils, create a file db.js that contains the class DBClient. DBClient should have:
+
+
+### [2. First API](./server.js)
+* Inside server.js, create the Express server. 
+
+
+### [3. Create a new user](./routes/index.js)
+* Now that we have a simple API, it’s time to add users to our database. In the file routes/index.js, add a new endpoint
+
+
+### [4. Authenticate a user](./routes/index.js)
+* In the file routes/index.js, add 3 new endpoints:
+
+
+### [5. First file](./routes/index.js)
+* In the file routes/index.js, add a new endpoint:
+
+
+### [6. Get and list file](./routes/index.js)
+* In the file routes/index.js, add 2 new endpoints:
+
+
+### [7. File publish/unpublish](./routes/index.js)
+* In the file routes/index.js, add 2 new endpoints:
+
+
+### [8. File data](./routes/index.js)
+* In the file routes/index.js, add one new endpoint:
+
+
+### [9. Image Thumbnails ](./controllers/FilesController.js)
+* Update the endpoint POST /files endpoint to start a background processing for generating thumbnails for a file of type image:
+
+---
+
+## Author
+* **Paula Sotelo** - [omeinsotelo](https://github.com/omeinsotelo)
+* **Felipe Satizabal** - [felipesv](https://github.com/felipesv)
